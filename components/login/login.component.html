@@ -1,0 +1,23 @@
+
+<div class="login-wrapper" ng-controller="loginCtl">
+  <div class="login">
+    <div class="login-heding">Login</div>
+    <div class="login-form">
+      <form>
+        <div class="login-input">
+          <input type="text" placeholder="Username" ng-model="username" />
+        </div>
+        <div class="login-input">
+          <input type="password" placeholder="Password" ng-model="password" />
+        </div>
+        <div class="login-sbmit-button">
+          <button type="submit" ng-click="getUser()">Login</button>
+        </div>
+      </form>
+      <div class="note">
+        <a href="#!/signup">If you don't have account.</a>
+      </div>
+    </div>
+  </div>
+</div>
+
