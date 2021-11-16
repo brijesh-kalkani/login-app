@@ -5,8 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 textarea, input { outline: none; }
 
 .login-wrapper, .home-wrapper{
@@ -18,17 +16,10 @@ textarea, input { outline: none; }
     align-items: center;
 }
 
-.login{
+.login, .signup{
+    min-width: 320px;
     width: 25%;
-    height: 40%;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.signup{
-    width: 25%;
-    height: 50%;
+    height: auto;
     border-radius: 5px;
     background-color: #fff;
     text-align: center;
@@ -61,6 +52,7 @@ textarea, input { outline: none; }
 }
 
 .note{
+    margin-bottom: 20px;
     font-size: 12px;
     letter-spacing: 0.5px;
 }
@@ -68,7 +60,8 @@ textarea, input { outline: none; }
 
 .home{
     width: 50%;
-    height: 20%;
+    min-width: 340px;
+    height: auto;
     background-color: #fff;
     border-radius: 30px;
     text-align: center;
@@ -80,7 +73,7 @@ textarea, input { outline: none; }
 }
 
 .logout-btn-wrapper{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .logout-btn-wrapper button{
